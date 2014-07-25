@@ -7,7 +7,7 @@ Write docs in gitHub flavored markdown.
 1. Install dependencies: `$ npm install`;
 
 2. Setting project config `config.json`:
-	```json
+	```
 	{
 		// markdown docs directory
 		"source": "./content",
