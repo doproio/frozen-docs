@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+var argv = require('optimist').argv;
+
+// console.dir(argv);
+
+// run build
+if (argv._[0] === 'build') {
+	require('./index').build();
+}
+
+// run server
+if (argv._[0] === 'server') {
+	require('./index').server(argv.port);
+}

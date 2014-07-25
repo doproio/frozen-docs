@@ -1,0 +1,13 @@
+{
+	// md文档目录
+	"source": "./content",
+
+	// html文档目录
+	"destination": "./pages",
+
+	// github 帐号
+	"github": {
+		"username": "",
+    	"password": ""
+	}
+}
